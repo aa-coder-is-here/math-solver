@@ -2,9 +2,11 @@
 
 :root {
   --primary: #003529;
+  --glass: rgba(255,255,255,0.1);
 }
 
 @theme inline {
   --color-primary-900: var(--primary);
-  --font-primary: var(--font-mon)
+  --color-glass-50: var(--glass);
+  --font-primary: var(--font-mon);
 }

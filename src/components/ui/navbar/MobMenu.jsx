@@ -5,7 +5,7 @@ import { RxCross1 } from "react-icons/rx";
 const MobMenu = (props) => {
   const { isNavOpen , setNavOpen } = props;
   return (
-       <div className={`md:hidden ${isNavOpen ? "flex" : "hidden"} flex-col absolute top-0 left-0 w-11/12 h-screen bg-[rgba(255,255,255,0.1)] backdrop-blur-xl text-white py-6 px-4`}>
+       <div className={`md:hidden ${isNavOpen ? "flex" : "hidden"} flex-col absolute top-0 left-0 w-11/12 h-screen bg-glass-50 backdrop-blur-xl text-white py-6 px-4`}>
 
     {/* Close Icon  */}
     <div onClick={() => setNavOpen(false)} className="w-full flex justify-end text-2xl">

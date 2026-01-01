@@ -9,3 +9,17 @@ export const Navlinks = [
 ]
 
 export const navCTA = "Sign up"
+
+// Hero Text
+
+export const HeroContent = {
+  subHead: "100% Satisfaction Guarantee",
+  heading1: "Math Made Simple",
+  heading2: "for students at",
+  heading3: "every level",
+  para: "Calculate derivatives instantly with step-by-step solutions that help you understand the process, not just get the answer",
+  cta1: "Get Started",
+  cta2: "Learn More",
+  testimonialNum: "10k",
+  testimonialText: "Trusted Students"
+}
