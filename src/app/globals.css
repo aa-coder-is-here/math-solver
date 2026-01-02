@@ -3,10 +3,12 @@
 :root {
   --primary: #003529;
   --glass: rgba(255,255,255,0.1);
+  --border: #D8D8D8;
 }
 
 @theme inline {
   --color-primary-900: var(--primary);
   --color-glass-50: var(--glass);
+  --color-border-50: var(--border);
   --font-primary: var(--font-mon);
 }

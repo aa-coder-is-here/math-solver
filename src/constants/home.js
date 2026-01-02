@@ -23,3 +23,12 @@ export const HeroContent = {
   testimonialNum: "10k",
   testimonialText: "Trusted Students"
 }
+
+// New Tool Section Content
+
+export const NewToolContent = {
+  subHead: "Our New Tool",
+  heading: "Derivative Calculator",
+  para: "Enter the function, select variable, and click calculate button to find the derivative using derivative calculator.",
+  calHeading: "Enter Function: "
+}
